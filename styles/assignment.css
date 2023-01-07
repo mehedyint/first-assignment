@@ -5,8 +5,9 @@
 
 .header {
     background-image: url(../images/banner/banner3.png);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
+
 }
 
 .banner {
@@ -65,15 +66,34 @@ nav li {
 
 /* m-body */
 .m-body {
-    margin: 200px;
+    margin: 114px;
     display: flex;
     gap: 160px;
+}
+
+.m-title {
+    margin-top: 250px;
+    margin-bottom: 26px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
 }
 
 .m-description {
     font-weight: 400;
     font-size: 16px;
     text-align: left;
+    color: #444343;
+
+}
+
+.fa-check {
+    margin-top: 10px;
+    color: #16D887;
+    width: 24px;
+    height: 27.56px;
+    left: 845px;
+    top: 1391.15px;
 }
 
 /* my plan styles */
