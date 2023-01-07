@@ -154,21 +154,19 @@ nav li {
 
 /* footer section  */
 
-footer {
-    background: #151414;
-    width: 100vx;
-    height: auto;
-    padding-top: 40px;
-    color: #ffffff;
+.footer {
+    display: flex;
+    gap: 600px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    background-color: #151414;
+    color: #FFF8F3;
+    text-align: left;
 }
 
-.footer-content {
-    margin-left: 230px;
-    display: flex;
-    align-items: left;
-    justify-content: left;
-    text-align: left;
-    flex-direction: column;
+.footer-title {
+    font-weight: 700;
+    font-size: 45px;
 }
 
 .footer-content h3 {
@@ -177,7 +175,7 @@ footer {
     font-size: 45px;
 }
 
-.footer-content p {
+.footer p {
     max-width: 500px;
     margin-top: 16px;
 }
@@ -188,10 +186,21 @@ footer {
     margin-top: 32px;
     margin-bottom: 118px;
     list-style: none;
-
-
 }
 
-.footer-bottom {
-    text-align: center;
+form input {
+    margin-top: 20px;
+    width: 300px;
+    height: 45px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+form button {
+    border-radius: 10px;
+    padding: 10px 30px;
+    cursor: pointer;
+    background: #005FAC;
+    color: #FFFFFF;
+    font-size: 15px;
 }
