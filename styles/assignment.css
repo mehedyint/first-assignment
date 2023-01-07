@@ -7,8 +7,7 @@
     background-image: url(../images/banner/banner3.png);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
-
+    height: 100vh;
 }
 
 .banner {
@@ -28,6 +27,7 @@
     font-weight: 400;
     font-size: 16px;
     padding-bottom: 32px;
+    margin-left: 70px;
 
 }
 
@@ -119,6 +119,7 @@ nav li {
     background: #FFFFFF;
     border-radius: 5px;
     padding: 30px;
+    margin-bottom: 50px;
 }
 
 .plans-title {
@@ -138,7 +139,7 @@ nav li {
 /* gradient styles  */
 .bg-gradient {
     margin: auto;
-    margin-bottom: 130px;
+    margin-bottom: 140px;
     width: 1140px;
     height: 300px;
     left: 230px;
@@ -170,30 +171,35 @@ nav li {
 
 /* footer section  */
 
-.footer {
+footer {
     display: flex;
     gap: 600px;
     background: #FFF8F3;
-    padding: 130px 200px;
+    padding: 100px 100px;
     background-color: #151414;
     color: #FFF8F3;
     text-align: left;
+    top: 2651.96px;
 }
 
-.footer-title {
+footer h3 {
+    margin-top: 5px;
     font-weight: 700;
     font-size: 45px;
+    margin-left: 240px;
 }
 
-.footer-content h3 {
-    margin-top: 141px;
+.subscribe {
+    margin-top: 5px;
     font-weight: 700;
     font-size: 45px;
+    margin-left: 0px;
 }
 
-.footer p {
+footer p {
     max-width: 500px;
     margin-top: 16px;
+    margin-left: 240px;
 }
 
 .socials {
@@ -202,6 +208,9 @@ nav li {
     margin-top: 32px;
     margin-bottom: 118px;
     list-style: none;
+    margin-right: auto;
+    margin-left: 200px;
+
 }
 
 form input {
@@ -210,6 +219,7 @@ form input {
     height: 45px;
     text-align: left;
     margin-bottom: 20px;
+    margin-left: 0px;
 }
 
 form button {
@@ -219,4 +229,6 @@ form button {
     background: #005FAC;
     color: #FFFFFF;
     font-size: 15px;
+    margin-left: 0px;
+    margin-right: 20px;
 }
