@@ -84,3 +84,41 @@ nav li {
     margin-top: 350px;
     padding-right: 340px;
 }
+
+/* my plan styles */
+
+.section-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+.plans-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 86px;
+    text-align: center;
+    margin-left: 230px;
+    margin-right: 230px;
+}
+
+.plans {
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.plans-title {
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #151414;
+}
+
+.plans-description {
+    color: #737272;
+    font-weight: 500;
+    font-size: 25px;
+}
