@@ -38,6 +38,7 @@
     border-radius: 5px;
     background: #FFFFFF;
     margin-bottom: 166px;
+    cursor: pointer;
 }
 
 nav {
@@ -62,27 +63,17 @@ nav li {
     margin-left: 50px;
 }
 
-.about {
+/* m-body */
+.m-body {
+    margin: 200px;
     display: flex;
-    justify-content: space-around;
+    gap: 160px;
 }
 
-.images {
-    margin-top: 105px;
-    margin-left: 164px;
-    margin-bottom: 252px;
-}
-
-.about-title {
-    text-align: center;
-    margin-top: 350px;
-
-}
-
-.about-description {
-    text-align: center;
-    margin-top: 350px;
-    padding-right: 340px;
+.m-description {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
 }
 
 /* my plan styles */
@@ -153,6 +144,7 @@ nav li {
     border-radius: 5px;
     background: #FFFFFF;
     margin-left: 64px;
+    cursor: pointer;
 }
 
 /* footer section  */
