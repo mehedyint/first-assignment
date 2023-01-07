@@ -122,3 +122,33 @@ nav li {
     font-weight: 500;
     font-size: 25px;
 }
+
+/* gradient styles  */
+.gradient {
+    margin-left: 230px;
+    background-image: url(../images/watch.png), url(../images/gradient1.png);
+    background-repeat: no-repeat;
+    color: #ffffff;
+    border-radius: 8px;
+}
+
+.gradient-title {
+    padding-top: 50px;
+    margin-left: 64px;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.callnow-btn {
+    margin-top: 25px;
+    margin-bottom: 60px;
+    color: #005FAC;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    margin-left: 64px;
+}
+/* footer section  */
