@@ -151,4 +151,47 @@ nav li {
     background: #FFFFFF;
     margin-left: 64px;
 }
+
 /* footer section  */
+
+footer {
+    background: #151414;
+    width: 100vx;
+    height: auto;
+    padding-top: 40px;
+    color: #ffffff;
+}
+
+.footer-content {
+    margin-left: 230px;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    flex-direction: column;
+}
+
+.footer-content h3 {
+    margin-top: 141px;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin-top: 16px;
+}
+
+.socials {
+    display: flex;
+    gap: 17px;
+    margin-top: 32px;
+    margin-bottom: 118px;
+    list-style: none;
+
+
+}
+
+.footer-bottom {
+    text-align: center;
+}
