@@ -124,22 +124,25 @@ nav li {
 }
 
 /* gradient styles  */
-.gradient {
-    margin-left: 230px;
-    background-image: url(../images/watch.png), url(../images/gradient1.png);
-    background-repeat: no-repeat;
-    color: #ffffff;
-    border-radius: 8px;
+.bg-gradient {
+    margin: auto;
+    margin-bottom: 130px;
+    width: 1140px;
+    height: 300px;
+    left: 230px;
+    top: 2221.96px;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(../images/watch.png);
 }
 
 .gradient-title {
-    padding-top: 50px;
+    padding-top: 60px;
     margin-left: 64px;
     font-weight: 700;
     font-size: 40px;
+    color: #FFFFFF;
 }
 
-.callnow-btn {
+.call-btn {
     margin-top: 25px;
     margin-bottom: 60px;
     color: #005FAC;
